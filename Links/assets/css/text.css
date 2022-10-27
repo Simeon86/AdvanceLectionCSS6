@@ -1,0 +1,36 @@
+.t_link a:link {
+    color: red;
+}
+
+.t_link a:visited {
+    color: blue;
+}
+
+.t_hover p:hover {
+    color: red;
+}
+
+.shadow {
+    color: red;
+    /* text-shadow: 5px 5px 0px black; */
+    text-shadow: 5px 5px 3px rgba(0, 0, 0, 0.5),
+                 2px 2px 2px greenyellow;
+}
+
+.shell {
+    background-color: chartreuse;
+}
+
+.shell .shell-row {
+    text-align: center;
+}
+
+.shell .shell-row div {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    margin: 10px;
+}
+
+
